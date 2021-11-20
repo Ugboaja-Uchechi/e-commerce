@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+
+:root {
+  --orange: hsl(26, 100%, 55%);
+  --darkGrayishBlue: hsl(219, 9%, 45%);
+  --paleOrange: hsl(25, 100%, 94%);
+  --darkBlue: hsl(220, 13%, 13%);
+  --grayishBlue: hsl(220, 14%, 75%);
+  --lightGrayishBlue: hsl(223, 64%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --paragraphFont: 16px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;;
+}
+
+@media only screen and (max-width: 375px) {
+  header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 1.5rem; */
+  }
+
+  .hamburger-menu > img {
+    padding-left: 2rem;
+  }
+
+  h1 {
+    margin: 0;
+    padding-right: 5rem;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .cart > img {
+    height: 1.3rem;
+    padding-right: 1rem;
+  }
+
+  .user > img {
+    width: 45px;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+  }
+
+  .product-image {
+    background-image: url(./images/image-product-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 21rem;
+  }
+
+  .previous-container, .next-container {
+    display: inline-block;
+    transform: translate(2rem, 10rem);
+    width: 9%;
+    height: 10%;
+    border: 2px solid var(--white);
+    border-radius: 55%;
+    background-color: var(--white);
+  }
+
+  .next-container {
+    transform: translate(16.4rem, 9.5rem);
+  }
+
+  .previous, .next {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .next {
+    margin-left: 0.7rem;
+  }
+
+  .content {
+    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .content > h3 {
+    color: var(--orange);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: -0.5rem;
+  }
+
+  .content > h2 {
+    color: var(--darkBlue);
+    text-transform: capitalize;
+
+  }
+
+  .content > p {
+    font-size: 16px;
+    color: var(--darkGrayishBlue);
+    line-height: 1.5rem;
+  }
+
+  /* .prices {
+    padding-left: 1rem;
+  } */
+
+}
