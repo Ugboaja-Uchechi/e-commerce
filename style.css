@@ -102,10 +102,64 @@ body {
     font-size: 16px;
     color: var(--darkGrayishBlue);
     line-height: 1.5rem;
+    text-align: justify;
   }
 
-  /* .prices {
-    padding-left: 1rem;
-  } */
+  .prices {
+    margin-top: 1.7rem;
+  }
+
+  .amount {
+    font-size: 23px;
+    font-weight: 700;
+  }
+
+  .discount {
+    margin-left: 1.8rem;
+    font-size: 18px;
+    font-weight: 700;
+    color:  var(--orange);
+    border: 1px solid var(--paleOrange);
+    padding: 0.2rem 0.5rem;
+    background-color: var(--paleOrange);
+    border-radius: 7px;
+  }
+
+  .old-price {
+    margin-left: 7.2rem;
+    color: var(--grayishBlue);
+    font-weight: 700;
+    text-decoration: line-through;
+  }
+
+  .arithmetic {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--lightGrayishBlue);
+    margin-top: 2rem;
+    padding: 0.9rem 0;
+    border-radius: 0.8rem;
+  }
+
+  .arithmetic span {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .arithmetic span:nth-child(odd) {
+    color:  var(--orange);
+  }
+
+  .add-button {
+    width: 100%;
+    background-color: var(--orange);
+    margin-top: 2rem;
+    padding: 0.9rem 0;
+    border: 1px solid var(--orange);
+    border-radius: 0.8rem;
+    font-size: 16px;
+    color: var(--white);
+    margin-bottom: 4rem;
+  }
 
 }
