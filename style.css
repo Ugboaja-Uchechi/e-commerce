@@ -162,4 +162,31 @@ body {
     margin-bottom: 4rem;
   }
 
+  .empty-cart {
+    position: absolute;
+    top: 4rem;
+    visibility: hidden;
+    width: 92%;
+    background-color: var(--white);
+    height: 18rem;
+    margin-left: 1rem;
+    border-radius: 11px;
+  }
+
+  .empty-cart h3 {
+    margin-left: 2rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .empty-cart span {
+    display: block;
+    border: 0.5px solid var(--lightGrayishBlue);  }
+
+  .empty-cart p {
+    text-align: center;
+    transform: translate(0, 66px);
+    font-weight: 700;
+    color: var(--darkGrayishBlue);
+  }
+
 }
