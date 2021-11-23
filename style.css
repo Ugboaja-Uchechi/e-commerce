@@ -165,7 +165,7 @@ body {
   .empty-cart {
     position: absolute;
     top: 4rem;
-    visibility: hidden;
+    /* visibility: hidden; */
     width: 92%;
     background-color: var(--white);
     height: 18rem;
