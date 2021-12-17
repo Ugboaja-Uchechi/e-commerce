@@ -86,17 +86,36 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5.5rem;
+  /* margin-top: 5.5rem; */
 }
 
-.laptop-flex > img {
-  width: 30%;
+.laptop-flex-cover {
+  max-height: 565px;
+  max-width: 445px;
+}
+
+.laptop-flex-img-cover{
+  width: 30rem;
+}
+
+.laptop-flex-img {
+  width: 75%;
+  height: 20rem;
   border-radius: 10px;
+}
+
+.thumbnails {
+  display: flex;
+}
+
+.thumbnails img {
+  width: 18.75%;
+  height: 30%;
 }
 
 .laptop-div {
   width: 25rem;
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
 }
 
 .laptop-flex h3 {
