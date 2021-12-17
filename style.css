@@ -43,10 +43,17 @@ body {
 
 header {
   background-color: var(--white);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding-top: 1.5rem;
+}
+
+header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 1.5rem;
+  max-width: 1467px;
 }
 
 .hamburger-menu > img {
@@ -79,8 +86,11 @@ h1 {
 
 .laptop-line {
   border: 1px solid var(--lightGrayishBlue);
-  margin: 0 10rem;
+  /* margin: 0 10rem; */
+  max-width: 1467px;
   margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .laptop-flex {
