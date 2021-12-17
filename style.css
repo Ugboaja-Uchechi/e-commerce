@@ -84,10 +84,11 @@ h1 {
 
 .laptop-flex {
   display: flex;
-  margin-left: 14rem;
-  margin-right: 14rem;
+  justify-content: center;
+  /* margin-left: 14rem;
+  margin-right: 14rem; */
   align-items: center;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 
 .laptop-flex > img {
@@ -111,6 +112,8 @@ h1 {
   color: var(--darkBlue);
   text-transform: capitalize;
   width: 19rem;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .laptop-flex p {
@@ -143,34 +146,51 @@ h1 {
   margin-top: 0.5rem;
 }
 
-.laptop-flex .arithmetic {
-  /* display: flex;
-  justify-content: space-around; */
-  display: inline-block;
+.button-flex {
+  display: flex;
+}
+
+.arithmetic {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: var(--lightGrayishBlue);
+  width: 9rem;
+  height: 3rem;
+  margin-right: 1rem;
+  border-radius: 0.6rem;
   /* margin-top: 2rem;
   padding: 0.9rem 0;
   border-radius: 0.8rem; */
 }
 
-/* .laptop-flex .arithmetic span {
+.arithmetic span {
   font-size: 22px;
   font-weight: 700;
-} */
+}
 
-.laptop-flex .arithmetic span:nth-child(odd) {
+.arithmetic span:nth-child(odd) {
   color:  var(--orange);
 }
 
-.laptop-flex .add-button {
+.button-flex .add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
   background-color: var(--orange);
   /* margin-top: 2rem;
   padding: 0.9rem 0; */
   border: 1px solid var(--orange);
-  border-radius: 0.6rem;
+  border-radius: 0.5rem;
   /* font-size: 16px; */
   color: var(--white);
   /* margin-bottom: 4rem; */
+}
+
+.add-button p {
+  color: var(--white);
+  margin: 0;
 }
 
 @media only screen and (max-width: 425px) {

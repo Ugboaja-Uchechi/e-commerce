@@ -41,14 +41,18 @@ let laptopText = `
     <span class="discount">50%</span>
     <h4 class="old-price">$250.00</h4>
   </div>
-  <div class="arithmetic">
-    <span>-</span>
-    <span>0</span>
-    <span>+</span>
+  <div class="button-flex">
+    <div class="arithmetic">
+      <span>-</span>
+      <span>0</span>
+      <span>+</span>
     </div>
 
-    <button class="add-button"><i class="fas fa-shopping-cart"></i> Add to cart</button>
-
+    <button class="add-button">
+    <i class="fas fa-shopping-cart"></i>
+    <p>Add to cart</p>
+    </button>
+  </div>
 </div>`
 
 laptopTextContainer.innerHTML += laptopText
