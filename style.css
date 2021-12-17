@@ -85,10 +85,8 @@ h1 {
 .laptop-flex {
   display: flex;
   justify-content: center;
-  /* margin-left: 14rem;
-  margin-right: 14rem; */
   align-items: center;
-  /* margin-top: 4rem; */
+  margin-top: 5.5rem;
 }
 
 .laptop-flex > img {
