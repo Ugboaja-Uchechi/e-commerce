@@ -31,8 +31,10 @@ let fullCart = `
 `;
 
 let laptopText = `
-<img src="./images/image-product-1.jpg" alt="">
-<div>
+
+  <img src="./images/image-product-1.jpg" alt="">
+
+<div class="laptop-div">
   <h3>sneaker company</h3>
   <h2>fall limited edition Sneakers</h2>
   <p>These low profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer</p>
@@ -42,7 +44,7 @@ let laptopText = `
     <h4 class="old-price">$250.00</h4>
   </div>
   <div class="button-flex">
-    <div class="arithmetic">
+    <div class="laptop-arithmetic">
       <span>-</span>
       <span>0</span>
       <span>+</span>

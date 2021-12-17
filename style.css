@@ -96,7 +96,7 @@ h1 {
   border-radius: 10px;
 }
 
-.laptop-flex > div {
+.laptop-div {
   width: 25rem;
   padding-left: 5rem;
 }
@@ -109,11 +109,13 @@ h1 {
 }
 
 .laptop-flex h2 {
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  letter-spacing: 2px;
+  font-weight: bold;
   color: var(--darkBlue);
   text-transform: capitalize;
-  width: 19rem;
+  width: 21rem;
   font-size: 2rem;
-  font-weight: 900;
 }
 
 .laptop-flex p {
@@ -150,7 +152,7 @@ h1 {
   display: flex;
 }
 
-.arithmetic {
+.laptop-arithmetic {
   display: flex;
   justify-content: space-around;
   align-items: center;
