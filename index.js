@@ -1,37 +1,29 @@
-let cartContainer = document.querySelector('.cart-container');
-let fullContainer = document.querySelector('.full-cart-container')
+// let fullContainer = document.querySelector('.full-cart-container')
 let laptopTextContainer = document.querySelector('.laptop-flex');
 
-let emptyCart = `
-<div class="empty-cart">
-<h3>Cart</h3>
-<span></span>
-<p>Your cart is empty</p>
-</div>`;
 
-let fullCart = `
-<div class="full-cart">
-  <h3>Cart</h3>
-  <span class="full-cart-line"></span>
-  <div class="flex">
+// let fullCart = `
+// <div class="full-cart">
+//   <h3>Cart</h3>
+//   <span class="full-cart-line"></span>
+//   <div class="flex">
 
-    <img class="checkout-image" src="./images/image-product-1-thumbnail.jpg" alt="snickers">
+//     <img class="checkout-image" src="./images/image-product-1-thumbnail.jpg" alt="snickers">
 
-    <div class="mobile-view">
-      <h4>Autumn Limited Edition...</h4>
-      <span class="light-text">$125.00 x 3</span>
-      <span class="dark-text">$375.00</span>
-    </div>
-    <div class="mobile-view">
-      <i class="fas fa-trash-alt trash"></i>
-    </div>
-  </div>
-  <button class="mobile-view">Checkout</button>
-</div>
-`;
+//     <div class="mobile-view">
+//       <h4>Autumn Limited Edition...</h4>
+//       <span class="light-text">$125.00 x 3</span>
+//       <span class="dark-text">$375.00</span>
+//     </div>
+//     <div class="mobile-view">
+//       <i class="fas fa-trash-alt trash"></i>
+//     </div>
+//   </div>
+//   <button class="mobile-view">Checkout</button>
+// </div>
+// `;
 
 let laptopText = `
-<section class="laptop-flex">
 <div class="laptop-flex-cover">
 <div class="laptop-flex-img-cover">
   <img src="./images/image-product-1.jpg" alt="" class="laptop-flex-img">
@@ -73,5 +65,5 @@ let laptopText = `
 </div></section>`
 
 laptopTextContainer.innerHTML += laptopText
-cartContainer.innerHTML += emptyCart;
-fullContainer.innerHTML += fullCart;
+// cartContainer.innerHTML += emptyCart;
+// fullContainer.innerHTML += fullCart;
