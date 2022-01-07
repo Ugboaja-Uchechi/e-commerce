@@ -1,6 +1,27 @@
 // let fullContainer = document.querySelector('.full-cart-container')
 let laptopTextContainer = document.querySelector('.laptop-flex');
+let minus = document.querySelector('.minus');
+let plus = document.querySelector('.plus');
+let num = document.querySelector('.num');
 
+let numCount = 0;
+num.innerText = numCount;
+
+plus.addEventListener('click', () => {
+  numCount++;
+  num.innerText =numCount
+});
+
+minus.addEventListener('click', () => {
+  numCount--;
+  num.innerText = numCount
+
+  if (num.innerText <= 0) {
+    num.innerText = 0
+  } else {
+    num.innerText = numCount
+  }
+});
 
 // let fullCart = `
 // <div class="full-cart">
@@ -51,9 +72,9 @@ let laptopText = `
   </div>
   <div class="button-flex">
     <div class="laptop-arithmetic">
-      <span>-</span>
-      <span>0</span>
-      <span>+</span>
+      <span class="minus">-</span>
+      <span class="num"></span>
+      <span class="plus">+</span>
     </div>
 
     <button class="add-button">
