@@ -150,6 +150,10 @@ h1 {
   border-radius: 10px;
 }
 
+.cursor:hover {
+  cursor: pointer;
+}
+
 .thumbnails {
   width: 80%;
   display: flex;
