@@ -154,6 +154,10 @@ h1 {
   cursor: pointer;
 }
 
+.z-index {
+  z-index: 2;
+}
+
 .thumbnails {
   width: 80%;
   display: flex;
