@@ -70,6 +70,8 @@ laptopTextContainer.innerHTML += laptopText
 let num = document.querySelectorAll('.num');
 let minus = document.querySelectorAll('.minus');
 let plus = document.querySelectorAll('.plus');
+let number = document.querySelector('.number');
+let button = document.querySelector('.add-button')
 
 let numCount = 0;
 
@@ -88,6 +90,10 @@ for (let i = 0; i < minus.length; i++) {
       num[i].innerText = numCount
     };
   });
+  // button.addEventListener('click', (e) => {
+  //   let add = Number(number.getAttribute('data-count') || 0);
+  //   number.setAttribute('data-count', minus[i]);
+  // })
 };
 
 for (let i = 0; i < plus.length; i++) {
@@ -96,3 +102,8 @@ for (let i = 0; i < plus.length; i++) {
     num[i].innerText = numCount
   });
 };
+
+button.addEventListener('click', () => {
+  // let add = Number(number.getAttribute('data-count') || 0);
+  number.innerText = num[i]
+})

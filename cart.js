@@ -1,6 +1,12 @@
 let cart = document.querySelector('.popup-cart');
 let cartContainer = document.querySelector('.cart-container');
-// let fullCartContainer = document.querySelector('.full-cart-container');
+// let number = document.querySelector('.number');
+// let button = document.querySelector('.add-button')
+// // let fullCartContainer = document.querySelector('.full-cart-container');
+
+// button.addEventListener('click', (e) => {
+//   let add = Number(number.getAttribute('data-count') || 0);
+// })
 
 cart.addEventListener('click', () => {
   
