@@ -147,6 +147,10 @@ h1 {
   margin-top: 2.5rem;
 }
 
+.cart-container {
+  display: none;
+}
+
 .laptop-flex-cover {
   max-height: 565px;
   max-width: 445px;
