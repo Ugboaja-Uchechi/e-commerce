@@ -35,6 +35,10 @@ body {
   display: none;
 }
 
+.product-image {
+  display: none;
+}
+
 /* .empty-cart {
   display: none;
 }
