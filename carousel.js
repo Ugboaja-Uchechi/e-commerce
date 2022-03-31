@@ -1,6 +1,9 @@
 let thumbnails = document.querySelector('.thumbnails');
 let carouselContainer = document.querySelector('.carousel-container')
-
+let next = document.querySelector('.next-container');
+let prev = document.querySelector('.previous-container');
+const images = document.querySelector('.carousel').children;
+const totalImages = images.length;
 
 thumbnails.addEventListener('click', () => {
   let imageCarousel = `
