@@ -39,12 +39,12 @@ thumbnails.addEventListener('click', () => {
   let imageCarousel = `
   <div class="laptop-flex-cover">
   <div class="laptop-flex-img-cover">
-    <img src="./images/image-product-1.jpg" alt="Sneakers" class="laptop-flex-img">
-    <img src="./images/image-product-2.jpg" alt="Sneakers" class="laptop-flex-img">
-    <img src="./images/image-product-3.jpg" alt="Sneakers" class="laptop-flex-img">
-    <img src="./images/image-product-4.jpg" alt="Sneakers" class="laptop-flex-img">
+    <img src="./images/image-product-1.jpg" alt="Sneakers" class="laptop-flex-img laptop-img-none laptop-img">
+    <img src="./images/image-product-2.jpg" alt="Sneakers" class="laptop-flex-img laptop-img-none">
+    <img src="./images/image-product-3.jpg" alt="Sneakers" class="laptop-flex-img laptop-img-none">
+    <img src="./images/image-product-4.jpg" alt="Sneakers" class="laptop-flex-img laptop-img-none">
   </div>
-  <div class="thumbnails">
+  <div class="thumbnails thumbnails-popup">
     <img src="./images/image-product-1-thumbnail.jpg" alt="">
   
     <img src="./images/image-product-2-thumbnail.jpg" alt="">

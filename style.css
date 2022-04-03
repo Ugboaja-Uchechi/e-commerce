@@ -166,8 +166,30 @@ h1 {
   border-radius: 10px;
 }
 
+.laptop-img-none {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.laptop-img {
+  display: block;
+}
+
 .cursor:hover {
   cursor: pointer;
+}
+
+/* Laptop Carousel */
+
+.carousel-container {
+  position: absolute;
+  top: 16%;
+  left: 37%;
+}
+
+.thumbnails-popup {
+  margin: 0 auto;
 }
 
 .z-index {
