@@ -47,7 +47,7 @@ thumbnails.addEventListener('click', () => {
   <div class = "icons">
     <i class="fa-solid fa-chevron-left"></i>
   </div>
-  <div class = "icons">
+  <div class = "icons right-icon">
     <i class="fa-solid fa-chevron-right"></i>
   </div>
   <div class="thumbnails thumbnails-popup">

@@ -195,6 +195,9 @@ h1 {
 /* Previous and next arrow icons */
 
 .icons {
+  position: absolute;
+  top: 13rem;
+  left: -1.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,6 +205,15 @@ h1 {
   height: 40px;
   border: 2px solid var(--white);
   border-radius: 50%;
+  background-color: var(--white);
+}
+
+.right-icon {
+  left: 28.5rem;
+}
+
+.icon i {
+  font-size: 1.3rem;
 }
 
 .z-index {
