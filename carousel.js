@@ -44,6 +44,12 @@ thumbnails.addEventListener('click', () => {
     <img src="./images/image-product-3.jpg" alt="Sneakers" class="laptop-flex-img laptop-img-none">
     <img src="./images/image-product-4.jpg" alt="Sneakers" class="laptop-flex-img laptop-img-none">
   </div>
+  <div class = "icons">
+    <i class="fa-solid fa-chevron-left"></i>
+  </div>
+  <div class = "icons">
+    <i class="fa-solid fa-chevron-right"></i>
+  </div>
   <div class="thumbnails thumbnails-popup">
     <img src="./images/image-product-1-thumbnail.jpg" alt="">
   
