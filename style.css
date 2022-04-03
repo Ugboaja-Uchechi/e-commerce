@@ -187,6 +187,15 @@ h1 {
   border-radius: 13%;
 }
 
+.thumbnails img:active {
+  opacity: 0.4;
+  border: 2px solid var(--orange);
+}
+
+.thumbnails img:hover {
+  opacity: 0.6;
+}
+
 .laptop-div {
   width: 25rem;
   /* padding-left: 5rem; */
