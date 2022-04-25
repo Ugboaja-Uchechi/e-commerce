@@ -190,6 +190,21 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+.x-mark-cover {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.x-mark-cover > i {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.x-mark-cover > i:hover {
+  color: var(--orange);
+}
+
 .thumbnails-popup {
   margin: 0 auto;
 }
@@ -221,6 +236,8 @@ h1 {
 .z-index {
   z-index: 2;
 }
+
+/* Thumbnail Images */
 
 .thumbnails {
   width: 80%;
