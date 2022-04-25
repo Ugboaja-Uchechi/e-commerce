@@ -67,9 +67,14 @@ laptopTextContainer.innerHTML += laptopText
 
 let popupDiv = document.querySelector('.laptop-flex-cover');
 let carouselContainer = document.querySelector('.carousel-container');
+let xMark = document.querySelector('.fa-xmark');
 
 popupDiv.addEventListener('click', () => {
   carouselContainer.style.display = 'block';
+})
+
+xMark.addEventListener('click', () => {
+  carouselContainer.style.display = 'none';
 })
 // cartContainer.innerHTML += emptyCart;
 // fullContainer.innerHTML += fullCart;
