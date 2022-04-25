@@ -183,9 +183,11 @@ h1 {
 /* Laptop Carousel */
 
 .carousel-container {
+  display: none;
   position: absolute;
-  top: 16%;
-  left: 37%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .thumbnails-popup {
@@ -194,7 +196,7 @@ h1 {
 
 /* Previous and next arrow icons */
 
-.icons {
+.left-icon, .right-icon {
   position: absolute;
   top: 13rem;
   left: -1.3rem;
@@ -355,6 +357,10 @@ h1 {
   }
 
   .icons {
+    display: none;
+  }
+
+  .carousel-container {
     display: none;
   }
 

@@ -64,6 +64,13 @@ let laptopText = `
 </div></section>`
 
 laptopTextContainer.innerHTML += laptopText
+
+let popupDiv = document.querySelector('.laptop-flex-cover');
+let carouselContainer = document.querySelector('.carousel-container');
+
+popupDiv.addEventListener('click', () => {
+  carouselContainer.style.display = 'block';
+})
 // cartContainer.innerHTML += emptyCart;
 // fullContainer.innerHTML += fullCart;
 
