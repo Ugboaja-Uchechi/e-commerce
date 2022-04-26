@@ -384,6 +384,29 @@ and (max-device-width: 1024px) {
     font-size: 0.9em;
   }
 
+  .laptop-flex-img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .laptop-flex-img-cover {
+    width: 100%;
+  }
+
+  .laptop-flex .amount,
+  .laptop-flex .discount,
+  .laptop-flex .old-price {
+    font-size: 1em;
+  }
+
+  .laptop-arithmetic {
+    width: 7rem;
+  }
+
+  .add-button {
+    width: 10rem;
+  }
+
 }
 
 @media only screen 
