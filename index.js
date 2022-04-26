@@ -82,9 +82,9 @@ xMark.addEventListener('click', () => {
 let num = document.querySelectorAll('.num');
 let minus = document.querySelectorAll('.minus');
 let plus = document.querySelectorAll('.plus');
-let number = document.querySelector('.number');
-let button = document.querySelector('.add-button')
-
+let number = document.querySelectorAll('.number');
+let button = document.querySelectorAll('.add-button')
+console.log(number)
 let numCount = 0;
 
 for (let i = 0; i < num.length; i++) {
@@ -115,7 +115,22 @@ for (let i = 0; i < plus.length; i++) {
   });
 };
 
-button.addEventListener('click', () => {
-  // let add = Number(number.getAttribute('data-count') || 0);
-  number.innerText = num[i]
-})
+
+for (let a = 0; a < button.length; a++) {
+  button[a].addEventListener('click', () => {
+    // let add = Number(number.getAttribute('data-count') || 0);
+    for (let j = 0; j < number.length; j++) {
+      for (let i = 0; i < num.length; i++) {
+        num[i].innerText = numCount
+        number[j].textContent = num[i]
+        console.log(number[j])
+
+        if (button[a].click) {
+          number[j].textContent = num[i]
+          console.log('hola', number[j])
+          console.log('tired')
+        }
+      };
+    };
+  })
+};
