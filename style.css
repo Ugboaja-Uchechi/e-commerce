@@ -380,7 +380,7 @@ and (max-device-width: 1024px) {
     font-size: 1.5em;
   }
 
-  .laptop-flex p {
+  .laptop-div > p {
     font-size: 0.9em;
   }
 
@@ -403,8 +403,20 @@ and (max-device-width: 1024px) {
     width: 7rem;
   }
 
-  .add-button {
+  .button-flex .add-button {
     width: 10rem;
+  }
+
+  .laptop-flex-cover {
+    width: 45%;
+  }
+
+  .laptop-div {
+    width: 45%;
+  }
+
+  .laptop-flex .old-price {
+    margin-bottom: 0.5rem;
   }
 
 }
