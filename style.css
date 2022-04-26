@@ -372,7 +372,18 @@ and (max-device-width: 1024px) {
 
   .laptop-text {
     margin-right: 0;
-}
+  }
+
+  .laptop-flex h2 {
+    text-shadow: 0px 0.5px, 0.5px 0px, 0.5px 0.5px;
+    width: 21rem;
+    font-size: 1.5em;
+  }
+
+  .laptop-flex p {
+    font-size: 0.9em;
+  }
+
 }
 
 @media only screen 
