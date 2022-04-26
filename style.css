@@ -190,6 +190,7 @@ h1 {
 /* Laptop Carousel */
 
 .carousel-container {
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -346,6 +347,8 @@ h1 {
   color:  var(--orange);
 }
 
+/* Button Styling */
+
 .button-flex .add-button {
   display: flex;
   justify-content: center;
@@ -366,7 +369,14 @@ h1 {
   margin: 0;
 }
 
-@media only screen and (max-width: 425px) {
+.add-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 649px) {
   .laptop-text {
     display: none;
   }
@@ -496,7 +506,7 @@ h1 {
 
   .next-container {
     margin-right: 5%;
-    left: 20rem
+    right: 0;
   }
 
   .content {

@@ -56,10 +56,8 @@ function nextImage(direction) {
 
   for(let i = 0; i < images.length; i++) {
     images[i].classList.remove('main');
-    images[i].classList.remove('block');
   }
   images[index].classList.add('main');
-  images[index].classList.add('block');
 }
 
 function nextLaptopImage(direction) {
